@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // 문자열 String
+    let name = "John Doe";
+    let name2 = 'John Doe';
+
+    let doubleQuote = 'he is called "Johnmy"';
+    console.log(doubleQuote);
+
+    let singleQuote = "He is called 'Johnmy'";
+
+    let doubleQuote2 = "he is called \"Johnmy\"";
+
+    let doubleQuote3 = "he is called \'Johnmy\'";
+    console.log(doubleQuote2);
+    console.log(doubleQuote3);
+
+    // 숫자 number '', "" 없이 써도 됨.
+    let x = 3;
+    let y = 3.14;
+
+    // undefined
+    let u = undefined; // 선언되지않음. 하나의 데이터 타입.
+    console.log(u);
+
+    // Null // 할당 값이 준비되지 않았을 때. 넣어서 쓰임.
+    let n = null;
+    console.log(n);
+
+    // Object
+    let person = {};
+    person.firstNam = "재석";
+    person.lastNam = "유";
+    person.age = "50";
+    console.log(person);
+    
+    
+    let person2 ={
+        firstName: "종국",
+        lastName: "김",
+        age: "47"
+    };
+    console.log(person2);
+
+    person2.email = "wnrjswjd@naver.com";
+    console.log(person2.email);
+
+    // Array
+    let arr1 = ["Hyundai","KIA","Volvo"];
+    console.log(arr1);
+
+    let arr2 = [3,7,9,10];
+    console.log(arr2[2]);
+
+    let arr3 = ["Hyundai",3,undefined];
+
+    let arr4 = [person,person2];
+    console.log(arr4);
+    
+    let arr5 = [];
+    // arr5[0] = 1;
+    // arr5[1] = 3;
+
+    arr5.push(2);
+    arr5.push(5);
+    arr5.push(1);
+    arr5.push(9);
+
+    console.log(arr5.length);
+
+    // Boolean 참/거짓 - true 혹은 false
+    let isAdult = true;
+    let x2 = 5;
+    let y2 = 7;
+    console.log(x2 > y2);
+
+    // 할당 된 값이 어떤 유형인지 알려줌!
+    console.log(typeof x2);
+    console.log(typeof isAdult);
+    console.log(typeof arr1); // 배열도 Object
+
+</script>
+</body>
+</html>
