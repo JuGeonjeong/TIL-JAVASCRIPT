@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Number
+
+        var x = 123;
+
+        // toString(); : 숫자를 문자열로 변환
+        console.log(x);
+        console.log(x.toString(2));
+
+        // toFixed()
+        // 지정된 소수점 자리수까지 반올림으로 표기
+        var x = 123999.513243;
+        console.log(x.toFixed(2));
+
+        // toPrecision() : 정수까지 포함 한 자리수
+        var x = 9.565;
+        console.log(x.toPrecision(2));
+
+        var x = Number("10"); // 숫자 10
+        var x = Number(true); // 1
+        var x = Number(false); // 0
+        console.log(Number("  10      ")); // 공백무시
+        console.log(Number("  10      ")); // 공백무시
+        console.log(Number("  10 , 12     ")); // Not a Number
+        console.log(Number("  hi    ")); // Not a Number
+        console.log(Number("  10.123      ")); // 
+
+        //parseInt() : 무조건 정수 = 소수점부터 무시
+        console.log(parseInt("3"));
+        console.log(parseInt("3.14"));
+        console.log(parseInt("10 33")); // 공백이하 무시
+        console.log(parseInt("12 years")); // 정수인 12만
+        console.log(parseInt("years 12")); // NaN
+
+        // parseFloat() : 소수점까지 표기
+        console.log(parseFloat("10"));
+        console.log(parseFloat("13.921")); // 소수점까지도 표기
+        console.log(parseFloat("10.14 Hello")); // Hello 무시
+  
+
+
+
+
+    </script>
+</body>
+</html>

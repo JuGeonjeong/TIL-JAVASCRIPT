@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var txt = "ABCDEFGHIJKLMN";
+    console.log(txt.length); // 글자길이
+
+    // indexOf : locate라는 문자열이 시작하는 시점의 index번호 / 찾지못하면 -1
+    var str = "Please locate where 'locate'";
+    console.log(str.indexOf("locate"));
+
+    
+    if(str.indexOf("locate") > -1){
+        console.log("locate문자 발견");
+    }
+
+    //lastIndexOf
+    console.log(str.lastIndexOf("locate"));
+
+    console.log(str.search("locate"));
+
+    // slice(시작점,끝점)
+    var str = "Apple, Banana, Kiwi";
+    console.log(str.slice(7,13));
+    console.log(str.slice(7));
+    console.log(str.slice(-12,-6));
+
+    // substring(시작점,끝점)
+    console.log(str.substring(7,13));
+
+    // substr(시작점,시작점으로부터 글자수)
+    console.log(str.substr(7,6));
+
+    var birthday = "940507";
+    console.log(birthday.substr(0,2));
+    console.log(birthday.substr(2,2));
+    console.log(birthday.substr(4,2));
+
+    var birthday = "1997-05-27";
+    console.log(birthday.substring(0,birthday.indexOf("-")));
+
+    // replace : 바꾸기
+    var str =  "Please visit here here here!";
+
+    var str2 = str.replace("here","there"); // 첫 here만 there로 바뀜
+    console.log(str2);
+    
+    var str =  "Please visit here HERE here!";
+    var str2 = str.replace(/here/g,"there"); // 정규식 모든 here가 there로 바뀜
+    console.log(str2);
+
+    // uppercase : 대,소문자로 변환
+    console.log(str.toLocaleUpperCase());
+    console.log(str.toLowerCase());
+
+    // john
+    // JOHN
+    // to
+    // 데이터베이스 john, John
+
+    // concat :
+    var txt1 = "Hello";
+    var txt2 = "World";
+    var txt3 = txt1 + " " + txt2;
+    console.log(txt3);
+    var txt4 = txt1.concat(" ",txt2);
+    console.log(txt4);
+
+    // trim : 앞,뒤 공백제거
+    var str = "    Hello World    ";
+    console.log(str);
+    console.log(str.trim());
+
+    // padStart : (만들 글자수,넣어줄 값) ex)날짜 자리수 맞춰줄때 01,02,03,...,11,12
+    var str = "5";
+    console.log(str.padStart(4,0));
+
+    // padEnd
+    console.log(str.padEnd(4,0));
+
+    // charAt : 문자열에서 (자리수)만큼의 특정 값을 호출
+    var str = "Hello World";
+    console.log(str.charAt(0));
+
+    // split !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    var tags = "키보드,기계식,블루투스,맥마우스";
+    var arr = tags.split(",");
+    console.log(arr);
+    console.log(arr.length);
+    console.log(arr[3]);
+
+    var birthday = "1997-06-12";
+    var arr2 = birthday.split("-");
+    console.log(arr2);
+
+    </script>
+</body>
+</html>
