@@ -2,9 +2,13 @@
 [Today I Learn] javascript 공부
 
 ## 0908 ~ 0909
-### javascript basic
 
 <details>
+  <summary>javascript basic</summary>
+  
+### javascript basic
+
+
   
 #### 자바스크립트 작성위치
 #### 콘솔
@@ -58,15 +62,10 @@
     * do-while(조건){} : while조건 안보고 do먼저 실행
 #### 함수
   * function name() {} - 특정 기능을 수행하도록 작성된 코드 블럭. 잘 짜놓으면 좋음.                             
-  
-</details>
-
+                                
 ---
 
 ### 자바스크립트 내장 함수 
-
-<details>
-  
 #### String
   * indexOf - 문자열이 시작하는 시점의 index번호 / 찾지못하면 -1
   * lastIndexOf - 뒤
