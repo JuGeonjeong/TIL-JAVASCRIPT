@@ -3,7 +3,9 @@
 
 ## 0908 ~ 0909
 ### javascript basic
+
 <details>
+  
 #### 자바스크립트 작성위치
 #### 콘솔
 #### 주석처리
@@ -14,12 +16,15 @@
 #### 조건문(if, switch)
 #### 반복문(for, for-in, for-of, while)
 #### 함수
+  
 </details>
 
 ---
 
 ### 자바스크립트 내장 함수 
+
 <details>
+  
 #### String 
 #### Number
 #### Boolean
@@ -29,4 +34,5 @@
 #### JSON
 #### Window
 #### 크롬개발자도구
+  
 </details>
