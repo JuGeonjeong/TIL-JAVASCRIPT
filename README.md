@@ -127,5 +127,34 @@
 #### JSON
 #### Window
 #### 크롬개발자도구
+                                                                        
+## 0810
+                                                                        
+<details>
+                                                                        
+#### this 키워드
+#### Scope
+#### Default Function Parameter                                                                        
+#### Default Function Parameter                                                                        
+#### Arrow Function
+#### Template Literals                                                                       
+#### Object Literal Syntax Extension
+#### Spread Operator                                                                        
+#### Object Destructuring                                                                        
+#### Array Destructuring                                                                        
+#### Promise
+#### Async/Await                                                                         
+#### 모듈(Module)
+#### 클래스(Class)                                                                        
+#### Error - try/catch/finally                                                                        
+#### Strict Mode                                                                        
+#### 정규식(RegExp)
+#### HTML Element 컨트롤                                                                        
+#### HTML 이벤트 컨트롤
+#### HTML 스타일 컨트롤                                                                        
+#### 데이터테이블 만들기                                                                        
+                                                                      
+ </details>                                                                       
+                                                                    
   
 </details>
