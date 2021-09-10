@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <input type="text"/>
+    <button type="button">저장</button>
+    <script>
+    //    console.log(window); 
+        
+    //    alert("이것은 alert창 입니다.");
+
+    //confirm  취소/확인
+    //confirm("정말 삭제하시겠습니까?")
+    // console.log(yn);
+
+    // if(confirm("정말 삭제하시겠습니까?")) {
+    //     // 삭제 실행
+    //     console.log("삭제실행");
+    // }
+
+    // var txt = prompt("비밀번호를 입력하세요.")
+    // console.log(txt);
+
+    // if(txt ==- null){
+
+    // } else if(txt == "") {
+    //     console.log("미입력");
+    // } else if(txt != "") {
+    //     console.log(txt);
+    // }
+
+    // open() - 링크 띄움
+    //window.open("https://naver.com");
+    
+    
+    // window.print(); - 인쇄실행
+
+    // setTimeout(function(){}, 초) - 설정 초 후 함수실행
+    // setTimeout(function () {
+    //     console.log("5초 후 프로그램 실행");
+    // }, 5000);
+
+    // setInterval(function(){}, 초) - 설정 초 마다 함수실행
+    // clearInterval(함수) - 빠져나옴
+    // 주식같이 실시간 차트같은 곳에 사용됨.
+    var i = 0;
+    var fnc = setInterval(function () {
+        console.log("3초 프로그램 실행 -" + i);
+        if(i == 3){
+            clearInterval(fnc);
+        }
+        i++;
+    }, 1500);
+    
+    // 웹소켓 - 서버에서 주식의 가격을 바뀌었는지 확인 후 바뀌었을때만 클라이언트로 내려보냄
+    //        네트워크 부화의 부담이 줄어들음. ex) 만명이 1초 ->
+
+    </script>
+</body>
+</html>

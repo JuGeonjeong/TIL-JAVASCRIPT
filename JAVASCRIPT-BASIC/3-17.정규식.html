@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 정규식 (Regular Expression) - 패턴을 통한 검색기능.
+        
+
+        var patt = /World/i; // World - 패턴, i - modifier
+
+        var str = "Hello World"
+        console.log(str.search("World"));
+
+        console.log()
+
+        // 우편번호 5자리
+        var patt1 = /^\d{5}$/;
+        var postalcode = "23451";
+        console.log(patt1.test(postalcode));
+
+        // 전화번호
+        var patt1 = /^(010)-\d{4}-\d{4}$/;
+        var tel = "010-8851-1652";
+        console.log(patt1.test(tel));
+
+        // 이메일 주소
+        var patt1 = /^\w+([\.-]?\w+)*@\w+(\.\w{2,3})+$/;
+        console.log(patt1.test("black.juu@naver.com"));
+
+
+    </script>
+</body>
+</html>

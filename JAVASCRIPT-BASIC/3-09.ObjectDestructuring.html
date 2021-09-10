@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Object Destructuring
+
+        function getPerson() {
+            return {
+                firstName: "John",
+                lastName: "Doe",
+                age: 37,
+                email: "john@gmail.com",
+                city: "New York",
+                country: "USA"
+            };
+        }
+
+        var {firstName, lastName} = getPerson();
+        console.log(firstName, lastName);
+        // var person = getPerson();
+        // console.log(person.firstName, person.lastName);
+        
+    </script>
+</body>
+</html>

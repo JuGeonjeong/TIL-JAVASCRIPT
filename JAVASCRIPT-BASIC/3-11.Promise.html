@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script src="<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    "></script>
+    <script>
+        // Promise - 비동기 통신을 위한...
+        // 서버로부터 데이터를 받아올때까지 기다림 밑에꺼 진행안됨.
+    
+        var data = axios.get("")
+    
+
+        axios.get('/user?ID=12345')
+  .then(function (response) {
+    // handle success
+    console.log(response);
+  })
+
+  function getData() {
+      return new Promise(function (resolve, reject) {
+          axios.get(url).then(function (response) {
+              console.log(response.data);
+              resolve(response.data);
+          });
+      });
+  }
+
+  getData().then(function (data) {
+      
+  });
+    </script>
+</body>
+</html>

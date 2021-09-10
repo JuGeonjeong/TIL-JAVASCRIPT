@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //    function sum(x1, x2) {
+    //        var y = x1 + x2;
+    //        console.log(y);
+
+    //        return y;
+    //    } 
+
+    //    sum(5,7);
+
+    //    function sum(x1, x2, x3) {
+    //        var y = x1 + x2 + x3;
+    //        console.log(y);
+
+    //        return y;
+    //    } 
+
+    //   sum(5,7,3);
+
+
+    // ...?
+    function sum(...args) {
+        // var total = 0;
+
+        // for(var x of args){
+        //     total += x;
+        // }
+        args.forEach(function (x,index) {
+            console.log(index);
+            total += x;
+        });
+        
+        console.log(total);
+        return total;
+    } 
+
+    sum(4,3);
+    sum(4,3,124);
+    sum(4,3,-3);
+
+
+
+
+
+
+
+
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Object Literals Syntax Extension - 동적으로 object의 key를 쓸 수 있음.
+        var firstName = "John";
+        var lastName ="Doe";
+
+        var person = {
+            firstName: firstName,
+            lastName: lastName
+        };
+
+        
+
+        var type = "student";
+        
+        var score = {
+            [type]: "John",
+            score: 95,
+        };
+
+        console.log(score.student);
+
+        var type2 = "grade";
+
+        score[type2] = 1;
+
+        console.log(score);
+       
+        
+    </script>
+</body>
+</html>
