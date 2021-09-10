@@ -1,7 +1,7 @@
 # TIL-JAVASCRIPT
 [Today I Learn] javascript 공부
 
-## 0908 ~ 0909
+## 0908 ~ 0910
 
 <details>
   <summary>javascript basic</summary>
@@ -127,11 +127,7 @@
 #### JSON
 #### Window
 #### 크롬개발자도구
-                                                                        
-## 0810
-                                                                        
-<details>
-                                                                        
+## 0910
 #### this 키워드
 #### Scope
 #### Default Function Parameter                                                                        
@@ -154,7 +150,7 @@
 #### HTML 스타일 컨트롤                                                                        
 #### 데이터테이블 만들기                                                                        
                                                                       
- </details>                                                                       
+                                                                   
                                                                     
   
 </details>
