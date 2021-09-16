@@ -2,9 +2,6 @@
 [Today I Learn] javascript 공부
 
 ## 0908 ~ 0910
-
-<details>
-  <summary>javascript basic</summary>
   
 ### javascript basic
 
@@ -155,6 +152,4 @@
 #### 데이터테이블 만들기                                                                        
                                                                       
                                                                    
-                                                                    
-  
-</details>
+
